@@ -1,8 +1,8 @@
 # Incident Response Command
 
-**SRE skills for triage, runbooks, alerting, and SLO-driven reliability ops** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For engineers who own production: run incidents calmly and defend reliability on-call.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-Six skills that cover the full on-call lifecycle: classifying incidents fast, writing runbooks and status updates, handing off shifts cleanly, tuning noisy alerts, and enforcing an error budget policy that turns SLO data into team behavior. Built for engineers who own production.
+Reach for this when you own a service on-call and want incidents to be routine, not chaos. It carries you through the whole lifecycle — instrument and de-noise your signals, call severity fast, work the runbook, keep customers honestly informed, hand the shift off cleanly, write the blameless postmortem, and turn SLO error budgets into automatic team decisions. The outcome: faster, calmer responses, less alert fatigue, and reliability that holds up instead of eroding. Built for engineers and SREs who carry the pager.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
