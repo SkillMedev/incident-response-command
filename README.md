@@ -9,7 +9,7 @@ Reach for this when you own a service on-call and want incidents to be routine, 
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/incident-response-command](https://skillme.dev/pack/incident-response-command) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/incident-response-command`
+- **With the skills CLI:** `npx skills add SkillMedev/incident-response-command`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
