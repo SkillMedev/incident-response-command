@@ -1,16 +1,17 @@
 # Incident Response Command
 
-**For engineers who own production: run incidents calmly and defend reliability on-call.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For engineers who own production: run incidents calmly and defend reliability on-call.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-incident-response-command).
 
 Reach for this when you own a service on-call and want incidents to be routine, not chaos. It carries you through the whole lifecycle - instrument and de-noise your signals, call severity fast, work the runbook, keep customers honestly informed on the status page and run the external crisis comms (first statement inside the hour, speculation never), hand the shift off with a completeness checklist, write the blameless postmortem on the 48-hour clock with the five-whys-stops-at-process rule, and turn SLO error budgets into automatic team decisions. Templates and severity thresholds included at every step. Built for engineers and SREs who carry the pager.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/incident-response-command](https://skillme.dev/pack/incident-response-command) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/incident-response-command?utm_source=github&utm_medium=readme&utm_campaign=pack-incident-response-command) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add sev-triage runbook-writer status-page-update crisis-comms-external oncall-handoff alert-tuning error-budget-policy observability-stack postmortem-writer --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/incident-response-command`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -27,4 +28,4 @@ Reach for this when you own a service on-call and want incidents to be routine, 
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-incident-response-command).
